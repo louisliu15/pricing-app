@@ -1,0 +1,12 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "dist",
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["application/*/*.ts"],
+  "exclude": ["node_modules"],
+  "files": ["application/app.ts"]
+}

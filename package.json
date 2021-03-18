@@ -1,0 +1,30 @@
+{
+  "name": "pricing-app",
+  "version": "1.0.0",
+  "description": "Pricing App Demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsc",
+    "test": "mocha -r ts-node/register test/unit/**/*.ts --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louisliu15/pricing-app.git"
+  },
+  "author": "Louis Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/louisliu15/pricing-app/issues"
+  },
+  "homepage": "https://github.com/louisliu15/pricing-app#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^14.14.35",
+    "chai": "^4.1.2",
+    "mocha": "^6.2.2",
+    "ts-node": "^7.0.1",
+    "typescript": "^4.2.3"
+  }
+}

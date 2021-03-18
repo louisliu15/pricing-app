@@ -1,0 +1,7 @@
+export enum Province {
+    AB = 5,
+    ON = 13,
+    QC = 14.975,
+    MI = 6,
+    DE = 0
+}
